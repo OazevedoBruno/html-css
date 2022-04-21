@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>imagens dinamincas</h1>
+    <picture>
+        <source media="(max-width:750px )" srcset="foto-p.png" sizes="image.png">
+        <source media="(max-width:1050px )" srcset="foto-m.png" sizes="image/png">
+        <img src="foto-g.png" alt="imagem flexivel">
+    </picture>
+    <!-- trabalhando com audio no site-->
+    <h2>audio liberado pelo youtube</h2>
+    <p>audio de instrumento free</p>
+    <!--<audio src="decaytower.mp3" controls autoplay></audio>-->
+    <!-- outro modo de audio-->
+    <audio controls>
+        <source src="decaytower.mp3" type="audio/mpeg">
+        <source src="decaytower.ogg" type="audio/ogg">
+        
+    </audio>
+    <p>se o navegador nao carrega mp3,ogg e wav sinto muito mas seu navegador é velho, deste modo <a href="decaytower.mp3" type="audio/mpeg3">clique aqui</a> para baixar o audio</p>
+    <!--videos-->
+    <h1>videos hospedados localmente</h1>
+    <video controls loop >
+        <source src="Videoultrahd.mkv" type="video/mp4">
+        <source src="Videoultrahd.webm" type="video/webm">
+        <source src="videoultrahd.mp4" type="video/mp4">
+        
+    </video>
+    <h2>videos do vimeo</h2>
+        <iframe src="https://player.vimeo.com/video/72863053?h=2496a9b736&color=ff9933&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+     <h2>vieo do youtube </h2> 
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/EApCLbgAE5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>
